@@ -9,6 +9,19 @@ Il calcule combien d'itérations sont nécessaires avant que la suite diverge (s
 - Détermination du nombre d'itérations nécessaires pour que la suite diverge (si applicable).
 - Affichage du statut du point complexe : il appartient ou non à l'ensemble de Mandelbrot.
 
+## Formule de la Suite de Mandelbrot
+
+La suite de Mandelbrot est définie par la relation récurrente suivante :
+
+\[
+z_{n+1} = z_n^2 + c
+\]
+
+où \( z_0 = 0 \) et \( c \) est un nombre complexe donné (c = partie réelle + partie imaginaire i). 
+La suite est itérée jusqu'à ce que la norme de \( z_n \) dépasse 2, indiquant que le point diverge. 
+Si elle ne diverge pas après un nombre maximal d'itérations, on considère que le point fait partie de l'ensemble de Mandelbrot.
+
+
 ## Exemple d'exécution1
 Entrez la partie réelle de c : 1 
 Entrez la partie imaginaire de c : 0.5 
