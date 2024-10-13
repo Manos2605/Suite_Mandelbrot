@@ -6,13 +6,18 @@ const int MAX_ITER = 1000; // Nombre maximal d'itérations
 int mandelbrot(float reel, float img) {
     float z_reel = 0.0f;
     float z_img = 0.0f;
-    int n = 0;
+    int n = 1;
+
+    std::cout << "z(0) = 0 + 0 i" << std::endl;
 
     while (z_reel * z_reel + z_img * z_img < 4.0f && n < MAX_ITER) {
         float z_reel_new = z_reel * z_reel - z_img * z_img + reel;
         float z_img_new = 2 * z_reel * z_img + img;
         z_reel = z_reel_new;
         z_img = z_img_new;
+        
+        std::cout << "z("<< n <<") = " << z_reel <<" + "<< z_img <<" i" << std::endl;
+
         n++;
     }
     return n;
@@ -32,7 +37,7 @@ int main() {
 
     // Affichage du message final
     std::cout << "Le complexe c = " << reel << " + " << img 
-              << "i diverge après " << iterations 
+              << "i diverge après " << iterations - 1 
               << " itération(s) dans la suite de Mandelbrot." << std::endl;
 
     if (iterations < MAX_ITER) {
