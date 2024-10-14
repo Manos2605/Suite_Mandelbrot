@@ -1,6 +1,6 @@
 Ce programme C++ permet de calculer et d'afficher les itérations d'un point complexe dans la suite de Mandelbrot. 
 Il calcule combien d'itérations sont nécessaires avant que la suite diverge (si elle diverge). Si la norme dépasse
-2, cela signifie que le point ne fait pas partie de l'ensemble de Mandelbrot.
+2, cela signifie que le point ne fait pas partie de l'ensemble de Mandelbrot. Vidéo présente sur X : https://x.com/Sonwa_Dimitry/status/1845752708805861608
 
 ## Fonctionnalités
 
