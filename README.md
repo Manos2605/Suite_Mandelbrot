@@ -1,6 +1,8 @@
 Ce programme C++ permet de calculer et d'afficher les itérations d'un point complexe dans la suite de Mandelbrot. 
 Il calcule combien d'itérations sont nécessaires avant que la suite diverge (si elle diverge). Si la norme dépasse
-2, cela signifie que le point ne fait pas partie de l'ensemble de Mandelbrot. Vidéo présente sur X : https://x.com/Sonwa_Dimitry/status/1845752708805861608
+2, cela signifie que le point ne fait pas partie de l'ensemble de Mandelbrot. Vidéo présente sur X et Linkedln : 
+- https://x.com/Sonwa_Dimitry/status/1845752708805861608
+- https://www.linkedin.com/posts/dimitry-sonwa-132345311_mandelbrot-fractale-cplusplus-activity-7251860519484063744-aOjg?utm_source=share&utm_medium=member_desktop
 
 ## Fonctionnalités
 
